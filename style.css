@@ -1,0 +1,50 @@
+#a {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+body {
+    background-image: url(123.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.line {
+    width: 100px;
+    height: 2px;
+    margin-left: 517.5px;
+    background-color: white;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+p {
+    font-size: 50px;
+    color: blueviolet;
+}
+
+#slides img {
+    height: 300px;
+    margin-top: 35px;
+}
+
+#slides p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
